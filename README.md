@@ -38,7 +38,7 @@ It separates categorical and numerical columns to prepare for plotting.
 Univariate analysis is performed to visualize the distribution of each feature. This helps in understanding the data and identifying potential outliers.
 
 Model Training
-Three powerful gradient boosting models—XGBoost, LightGBM, and CatBoost—are used to predict customer churn.
+Five powerful gradient boosting models—Random Forest, Logistic Regression, XGBoost, LightGBM, and CatBoost—are used to predict customer churn.
 
 Optuna, an open-source hyperparameter optimization framework, is used to find the best hyperparameters for each model, maximizing predictive performance.
 
@@ -55,7 +55,7 @@ Summary plots illustrate how features impact predictions across the dataset.
 
 Bar plots show the overall feature importance, providing insights into which factors are the most significant drivers of customer churn.
 
-SHAP values highlight that Total day charge, Customer service calls, and International plan are among the most influential features.
+SHAP values highlight that Contract type, Tenure, Tech support are among the most influential features.
 
 🛠 Getting Started
 Clone the repository.
